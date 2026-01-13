@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn Outreach</title>
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="../assets/styles/common.css">
+</head>
+<body>
+  <div class="app-container">
+    <header class="main-header">
+      <div class="logo">
+        <span class="logo-icon">🚀</span>
+        <h1>LinkedIn Outreach</h1>
+      </div>
+    </header>
+
+    <nav class="main-nav">
+      <button class="nav-tab active" data-target="dashboard">Dashboard</button>
+      <button class="nav-tab" data-target="leads">Leads</button>
+      <button class="nav-tab" data-target="campaigns">Campaigns</button>
+      <button class="nav-tab" data-target="settings">Settings</button>
+    </nav>
+
+    <main id="content-area">
+      <!-- Dynamic content loaded here -->
+    </main>
+
+    <div id="notification-area"></div>
+  </div>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(superpowers:brainstorming)",
+      "WebSearch",
+      "WebFetch(domain:scrapfly.io)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:substack.thewebscraping.club)"
+    ]
+  }
+}

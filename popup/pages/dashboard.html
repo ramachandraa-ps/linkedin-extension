@@ -1,0 +1,29 @@
+<div class="card">
+    <h2>Quick Stats</h2>
+    <div class="stat-grid">
+        <div class="stat-box">
+            <span class="stat-value" id="total-leads">-</span>
+            <span class="stat-label">Total Leads</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-value" id="daily-scraped">-</span>
+            <span class="stat-label">Scraped Today</span>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <h2>Current Page</h2>
+    <div id="page-status" class="text-center" style="margin-bottom: 12px; font-size: 13px;">
+        Checking...
+    </div>
+    <div id="scrape-buttons" class="hidden" style="display: flex; flex-direction: column; gap: 8px;">
+        <button id="btn-scrape" class="btn btn-primary">Scrape This Page (Visible Only)</button>
+        <button id="btn-scrape-all" class="btn btn-primary" style="background: linear-gradient(135deg, #0077B5 0%, #005582 100%);">
+            🚀 Auto-Scroll & Scrape All
+        </button>
+    </div>
+    <div id="scroll-status" class="text-center" style="margin-top: 8px; font-size: 11px; color: #666; display: none;">
+        Scrolling and loading profiles...
+    </div>
+</div>
